@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery animation</title>
+	<script type="text/javascript" src="../jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+		.container{
+			width: 600px;
+			margin: 0 auto;
+		}
+		
+		button{
+			box-sizing: border-box;
+			display: block;
+			margin: 5px 0;
+			padding: 10px;
+			color: white;
+			border-radius: 5px;
+			background-color: royalblue;
+			font-size: 20px;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		
+		button:hover{
+			background-color: blue;
+		}
+		
+		.box{
+			background-color: teal;
+			padding: 2px;
+			min-height: 20px;
+		}
+		
+		.box.box2{
+			background-color: palegreen;
+		}
+		
+		.box li{
+			padding: 20px;
+			list-style: none;
+			height: 20px;
+			margin: 2px;
+			background-color: orangered;
+			/*transition: height 2s;*/
+		}
+		
+		.box li.open{
+			height: 100px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+		<button>The Animate Button</button>
+		
+		<h3>Box 1: </h3>
+		<ul class="box box1">
+			<li>The number 1</li>
+			<li>The number 2</li>
+			<li>The number 3</li>
+		</ul>
+		
+		<h3>Box 2: </h3>
+		<ul class="box box2">
+			
+		</ul>
+		
+	</div>
+	
+</body>
+</html>

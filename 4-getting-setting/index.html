@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery selectors</title>
+	<script type="text/javascript" src="../jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+		.container{
+			width: 600px;
+			margin: 0 auto;
+		}
+		
+		button{
+			box-sizing: border-box;
+			display: block;
+			margin: 5px 0;
+			padding: 10px;
+			color: white;
+			border-radius: 5px;
+			background-color: royalblue;
+			font-size: 20px;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		
+		button:hover{
+			background-color: blue;
+		}
+		
+		form{
+			border: 2px dashed lightgray;
+			padding: 5px 10px;
+			margin-top: 10px;
+		}
+		
+		.play-area{
+			box-sizing: border-box;
+			border: 2px solid black;
+			font-size: 30px;
+			padding: 10px;
+			margin-top: 20px;
+			width: 100%;
+			height: 100px;
+		}
+		
+		.play-area.groovy{
+			background-color: palegreen;
+			height: 300px;
+		}
+		
+		.play-area.boring{
+			background-color: teal;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+		<button class="dimensions-button">Dimensions please</button>
+		<button class="html-button">The HTML</button>
+		<button class="css-button" data-new-name="groovy">The CSS 1</button>
+		<button class="css-button" data-new-name="boring">The CSS 2</button>
+		<button class="link-button" data-url="http://mrra.co">Link 1</button>
+		<button class="link-button" data-url="http://sweeandmoo.com">Link 2</button>
+		<button class="link-button" data-url="http://uxfoundry.co.za">Link 3</button>
+		
+		<a href="#" target="_blank">The missing link...</a>
+		
+		<div class="play-area">
+			This is the play area
+		</div>
+		
+	</div>
+	
+</body>
+</html>

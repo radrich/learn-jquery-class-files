@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery accordion</title>
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="http://files.parsetfss.com/921d6852-3587-4921-bcc6-bf563747e089/tfss-78a452b4-65b0-4ed5-a135-ecb751758fc2-script.js"></script>
+	<style>
+		body, html{
+			padding: 0;
+			margin: 0;
+			background-color: lightgrey;
+			font-family: sans-serif;
+		}
+		.container{
+			width: 600px;
+			margin: 0 auto;
+		}
+		
+		.accordion{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			border: #999 1px solid;
+		}
+		
+		.accordion li{
+			background: white;
+			margin: 0;
+			padding: 0;
+			border-top: #999 1px solid;
+		}
+		
+		.accordion li:first-child{
+			border-top: none;
+		}
+		
+		.accordion li p{
+			margin: 0;
+		}
+		
+		.title{
+			padding: 10px;
+			cursor: pointer;
+		}
+		
+		.title span{
+			display: block;
+			float: right;
+		}
+		
+		.content{
+			background: #efefef;
+			padding: 10px;
+			border-top: #999 1px solid;
+			display: none;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+		<h2>The Accordion</h2>
+		
+		<ul class="accordion">
+			<li>
+				<div class="title">Title 1 <span>+</span></div>
+				<div class="content">
+					<p>Content 1</p>
+					<p>Content 2</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quia, commodi reprehenderit aspernatur dignissimos vero, nam perferendis aliquid labore. Obcaecati deleniti iusto, quas, neque suscipit commodi illum voluptatum totam, eveniet optio aspernatur officia ducimus dignissimos autem vero, delectus impedit. Adipisci quae quisquam, odio nostrum voluptatem! Iste minus, aliquid laboriosam tenetur.</p>
+				</div>
+			</li>
+			<li>
+				<div class="title">Title 2 <span>+</span></div>
+				<div class="content">
+					<p>Content 2</p>
+				</div>
+			</li>
+			<li>
+				<div class="title">Title 3 <span>+</span></div>
+				<div class="content">
+					<p>Content 3</p>
+				</div>
+			</li>
+			<li>
+				<div class="title">Title 4 <span>+</span></div>
+				<div class="content">
+					<p>Content 4</p>
+				</div>
+			</li>
+		</ul>
+		
+		<h2>Second one</h2>
+		
+		<ul class="accordion">
+			<li>
+				<div class="title">Title 1 <span>+</span></div>
+				<div class="content">
+					<p>Content 1</p>
+					<p>Content 2</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quia, commodi reprehenderit aspernatur dignissimos vero, nam perferendis aliquid labore. Obcaecati deleniti iusto, quas, neque suscipit commodi illum voluptatum totam, eveniet optio aspernatur officia ducimus dignissimos autem vero, delectus impedit. Adipisci quae quisquam, odio nostrum voluptatem! Iste minus, aliquid laboriosam tenetur.</p>
+				</div>
+			</li>
+			<li>
+				<div class="title">Title 2 <span>+</span></div>
+				<div class="content">
+					<p>Content 2</p>
+				</div>
+			</li>
+			<li>
+				<div class="title">Title 3 <span>+</span></div>
+				<div class="content">
+					<p>Content 3</p>
+				</div>
+			</li>
+			<li>
+				<div class="title">Title 4 <span>+</span></div>
+				<div class="content">
+					<p>Content 4</p>
+				</div>
+			</li>
+		</ul>
+		
+	</div>
+	
+</body>
+</html>
